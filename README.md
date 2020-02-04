@@ -1,7 +1,7 @@
 # update_assembly
 Generate two phased Juicebox .assembly files from one master .assembly for FALCON-Phase. After generating a set of scaffolds for a single phase (or a master consensus haploid scaffold) and exporting the results from Juicebox as a .assembly file, this tool will use that .assembly file plus phasing information from FALCON-Phase to produce a pair of true phased .assembly files describing each set of scaffolds.
 
-##Usage
+## Usage
 
     usage: update_assembly.py [-h] -a File -p File
     [--sequence-length SEQUENCE_LENGTH]
